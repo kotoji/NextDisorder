@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="REPLY_BUTTON_ID" type="id"/>
+    <item name="FAVORITE_BUTTON_ID" type="id"/>
+    <item name="RETWEET_BUTTON_ID" type="id"/>
+</resources>

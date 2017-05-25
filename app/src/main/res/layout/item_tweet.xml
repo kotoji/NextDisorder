@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="#404040" >
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#d5d5d5"
+        android:src="@mipmap/ic_launcher" />
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/icon_retweeted_by"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/icon"
+        android:background="#d5d5d5"
+        android:visibility="gone"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/screen_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icon"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/icon"
+        android:textColor="#d5d5d5"
+        android:text="すくりーんねーむ" />
+
+    <TextView
+        android:id="@+id/twitter_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/screen_name"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@+id/screen_name"
+        android:textColor="#d5d5d5"
+        android:text="\uFF20example" />
+
+    <TextView
+        android:id="@+id/tweet_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/screen_name"
+        android:textColor="#d5d5d5"
+        android:layout_alignParentRight="true"
+        android:text="2012/04/15" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_alignLeft="@+id/screen_name"
+        android:layout_below="@+id/screen_name"
+        android:textColor="#d5d5d5"
+        android:text="Welcome to ヨォドォバ ァシィカァメェラ。亲爱的顾客朋友、 你们好。衷心欢迎您光临友都八喜。友 都八喜是日本著名的大型购物中心。精 明商品将近一百万种、数码相机、摄像 机、名牌手表、化妆品、电子游戏" />
+
+    <TextView
+        android:id="@+id/tweet_via_const"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_alignLeft="@+id/screen_name"
+        android:layout_below="@+id/text"
+        android:textColor="#d5d5d5"
+        android:text="via " />
+    <TextView
+        android:id="@+id/tweet_via"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/tweet_via_const"
+        android:layout_below="@+id/text"
+        android:textColor="#d5d5d5"
+        android:text="Twitter Web Client" />
+
+    <TextView
+        android:id="@+id/retweeted_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/screen_name"
+        android:layout_below="@+id/tweet_via"
+        android:textColor="#d5d5d5"
+        android:visibility="gone"
+        android:text="すくりーんねーむ"
+        />
+
+</RelativeLayout>

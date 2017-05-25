@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Next Disorder</string>
+    <string name="twitter_consumer_key">fgGlkkh9L2HmEYnBHa8qQ</string>
+    <string name="twitter_consumer_secret">LEoMUfWJKwf53CEjF2u7wpWWB3z9tam01AzmzTzG9A</string>
+    <string name="callback_url">nekoneko://nyaaan</string>
+    <string name="oauth_button">Next</string>
+</resources>
